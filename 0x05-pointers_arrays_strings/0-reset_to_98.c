@@ -5,7 +5,6 @@
  *@n: use 98
  *Return: 0 alwasy
  */
-
 void reset_to_98(int *n)
 {
   *n = 98;
