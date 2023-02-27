@@ -1,18 +1,16 @@
-#include "main.h"
+include "main.h"
+
 /**
- * _strlen - count
- * @s: string
- * Return: i
+ * _puts - return the strings
+ *
+ * @str: return strings as inputted
  */
-int _strlen(char *s)
+
+void _puts(char *str)
 {
 	int i;
-	char *key = s;
 
-	i = 0;
-	while (key[i] != '\0')
-	{
-		i++;
-	}
-	return (i);
+	for (i = 0; str[i]; i++)
+		_putchar(str[i]);
+	_putchar('\n');
 }
